@@ -227,6 +227,16 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Bicycles</pluralLabel>
+    <recordTypes>
+        <fullName>Off_Road</fullName>
+        <active>true</active>
+        <label>Off-Road</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Performance</fullName>
+        <active>true</active>
+        <label>Performance</label>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
