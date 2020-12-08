@@ -154,40 +154,6 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Color__c</fullName>
-        <externalId>false</externalId>
-        <label>Color</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Blue</fullName>
-                    <default>false</default>
-                    <label>Blue</label>
-                </value>
-                <value>
-                    <fullName>Red</fullName>
-                    <default>false</default>
-                    <label>Red</label>
-                </value>
-                <value>
-                    <fullName>Black</fullName>
-                    <default>false</default>
-                    <label>Black</label>
-                </value>
-                <value>
-                    <fullName>Other</fullName>
-                    <default>false</default>
-                    <label>Other</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Has_Features__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -240,25 +206,6 @@
         <active>true</active>
         <label>Off-Road</label>
         <picklistValues>
-            <picklist>Color__c</picklist>
-            <values>
-                <fullName>Black</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Blue</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Red</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Type__c</picklist>
             <values>
                 <fullName>Mountain</fullName>
@@ -274,25 +221,6 @@
         <fullName>Performance</fullName>
         <active>true</active>
         <label>Performance</label>
-        <picklistValues>
-            <picklist>Color__c</picklist>
-            <values>
-                <fullName>Black</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Blue</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Red</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
         <picklistValues>
             <picklist>Type__c</picklist>
             <values>
